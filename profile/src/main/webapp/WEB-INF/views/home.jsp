@@ -67,7 +67,7 @@ header, main, footer {
 					<img src="./resources/img/portfolio_img/admin/coding.jpg" style="width: 100%">
 				</div>
 				<!-- 프로필 -->
-				<a href="#!user"><img class="circle materialboxed" src="./resources/img/profile_img.jpg"></a> 
+				<a href="#!user"><img class="circle materialboxed" src="./resources/img/portfolio_img/admin/noname01.jpg"></a> 
 				<a href="#!name"><span class="white-text name">조 봉연</span></a>
 				<a href="#!email"><span class="white-text email">jby9215@naver.com</span></a>
 			</div>
@@ -131,15 +131,7 @@ header, main, footer {
 				<!--  about 카드 div 열기-->
 				<h5>About</h5>
 				<!-- <div class="row">
-					<a href="http://kjb7907.cafe24.com/profile" target="_blank">
-						<div class="col s4">
-							<div class="card">
-								<div class="card-image">
-									<img src="./img/portfolio_img/about.png">
-								</div>
-							</div>
-						</div>
-					</a> 자바스크립트로 구현한 게임 형식의 프로필<br> (PC환경에서만 동작)
+					
 				</div> -->
 			</div>
 			<!-- about 카드 div 닫기-->
@@ -263,12 +255,13 @@ header, main, footer {
 								<!-- 깃허브 or 링크 div 열기-->
 								<h5>호스팅링크 / github</h5>
 								<div>
-									<a href="http://kjb7907.cafe24.com/cinema/" target="_blank">
-										<img src="./resources/img/portfolio_img/movie/team.png" style="width: 30%"></a>
+									<a href="http://jby9215.cafe24.com/MovieBooking/" target="_blank">
+										<img src="./resources/img/portfolio_img/movie/team.png" style="width: 30%">
+									</a>
 								</div>
 								구글 크롬 , 해상도 1680 * 1050 권장
 								<div>
-									<a href="https://github.com/Jinnam/MovieBookingt" target="_blank">https://github.com/Jinnam/MovieBooking</a>
+									<a href="https://github.com/Jinnam/MovieBooking" target="_blank">https://github.com/Jinnam/MovieBooking</a>
 								</div>
 							</div> <!-- 깃허브 or 링크 div 닫기 -->
 						</li>
