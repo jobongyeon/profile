@@ -282,8 +282,14 @@ header, main, footer {
 							<!-- 상세설명 div -->
 							<div class="row">
 								<!-- 상세설명 div 열기 -->
-								<h5>설명</h5>
-								4인이서 진행한 팀 프로젝트
+								<h4>설명</h4>
+									<h5>클라이언트  : 일반사용자</h5>
+									일반사용자가 영화예매시스템 영화예매를 간단히 할 수 있도록 <br/>
+									영화에 대한 정보 제공 및 사용자에게 영화예매시 편리함 제공.<br/>
+									<h5>클라이언트  : 중앙관리자</h5>
+									관리자에게 영화 관리 및 , 단가/할인정보 관리, 통계 및 인물에 대한 관리 편의성 제공<br/>
+									<h5>클라이언트  : 중앙관리자</h5>
+									관리자에게 상영관리 및 상영관관리에 대한 편의성 제공<br/>
 							</div> <!-- 상세설명 div 닫기 -->
 						</li>
 
@@ -297,126 +303,198 @@ header, main, footer {
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/adminMain.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">관리자 메인화면 구현 및 메뉴 모듈 구성</div>
+									<div class="col s8">
+										관리자 메인화면 구현 및 메뉴 모듈 구성<br/><br/>
+										* 관리자 메인 : 영화 매출에 대한 데이터를 그래프 및 도표로 조회(지점별 월 매출/총 월 매출/영화별 예매율 순위)
+									</div>
 								</div>
 								
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/branchList.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">지점 리스트 조회</div>
+									<div class="col s8">
+										지점 리스트 조회<br/><br/>
+										* 지점 리스트 : 전체 지점이름, 지역, 주소, 상세설명 데이터 조회
+									</div>
 								</div>
 								
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/branchAdd.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">지점 등록</div>
+									<div class="col s8">
+										지점 등록<br/><br/>
+										* 지점 등록 : 지점이름, 지역, 주소, 상세설명, 이미지경로 입력 후 등록
+									</div>
 								</div>
 								
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/branchModify.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">지점 수정</div>
+									<div class="col s8">
+										지점 수정<br/><br/>
+										* 지점 수정 : 한개 행의 데이터 조회 후 
+										지점이름, 지역, 주소, 상세설명 내용 수정
+									</div>
 								</div>
 
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/adminList.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">관리자 리스트 조회</div>
+									<div class="col s8">
+										관리자 리스트 조회<br/><br/>
+										* 관리자 리스트 : 전체 관리자의 지점, 아이디, 지역, 승인일 정보 조회<br/>
+										* 관리자 삭제 : 한 행의 관리자의 삭제버튼 누를시 행의 데이터 삭제
+									</div>
 								</div>
 
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/adminAdd.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">관리자 등록</div>
+									<div class="col s8">
+										관리자 등록<br/><br/>
+										* 관리자 중복조회 : 관리자 아이디 중복 조회 후 관리자 등록가능<br/>
+										* 관리자 등록 : 아이디, 비밀번호, 지점명이 기입된 후 등록
+									</div>
 								</div>
 
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/adminModify.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">관리자 수정</div>
+									<div class="col s8">
+										관리자 수정<br/><br/>
+										* 관리자 수정 : 한명의 관리자 아이디, 권한정보 조회 후 권한, 비밀번호, 지점입력 후 수정
+									</div>
 								</div>
 
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/MemberList.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">회원 조회</div>
+									<div class="col s8">
+										회원 조회<br/><br/>
+										* 회원 조회 : 전체 회원의 아이디, 비밀번호, 휴대폰번호, 이름, 성별, 주소, 마일리지, 이메일, 생년월일, 가입일 정보조회
+									</div>
 								</div>
 
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/MovieList.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">영화 리스트 조회</div>
+									<div class="col s8">
+										영화 리스트 조회<br/><br/>
+										* 영화 리스트 조회 : 전체 영화의 영화한글이름, 국가, 감독, 등급, 장르, 제작사, 상영시간,	개봉일, 이미지경로  <br/>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										상영상태 정보조회
+									</div>
 								</div>
 								
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/MovieAdd.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">영화 등록</div>
+									<div class="col s8">
+										영화 등록<br/><br/>
+										* 감독정보조회 : 감독이름 입력 후 조회 누르면 감독 리스트 조회 후 선택한 감독코드와 감독이름 정보 조회<br/>
+										* 배우정보조회 : 배우이름 입력 후 조회 누르면 배우 리스트 조회 후 선택한 배우코드와 배우이름 정보 조회.<br/>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										리스트 조회 후 선택할 때 마다 배우정보 추가등록<br/>
+										* 스틸컷추가등록 : 스틸컷이미지 경로 입력 후 추가 누르면 새로운 input태그에서 스틸컷이미지 추가등록<br/>
+										* 영화등록 : 영화한글이름, 영화영문이름, 감독이름, 감독코드, 배우이름, 배우코드, 국가, 등급, 장르, 상세설명, 제작사,<br/>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										상영시간, 개봉일, 상영상태, 영상경로, 포스터이미지, 스틸컷이미지 입력 후 등록 가능
+									</div>
 								</div>
 								
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/CharacterList.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">인물 리스트 조회</div>
+									<div class="col s8">
+										인물 리스트 조회<br/><br/>
+										* 인물 리스트 조회 : 전체 인물의 인물한글이름, 인물영문이름, 생년월일, 성별, 국가정보조회
+									</div>
 								</div>
 
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/CharacterAdd.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">인물 등록</div>
+									<div class="col s8">
+										인물 등록<br/><br/>
+										* 인물등록 : 인물한글이름, 인물영문이름, 생년월일, 성별, 이미지경로, 국가, 바이오그래피 입력 후 등록
+									</div>
 								</div>
 								
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/CostList.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">단가 리스트 조회</div>
+									<div class="col s8">
+										단가 리스트 조회<br/><br/>
+										* 단가 리스트 조회 : 전체 단가의 상영종류, 상영단가, 적용연도, 적용상태 정보조회
+									</div>
 								</div>
 								
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/CostAdd.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">단가 등록</div>
+									<div class="col s8">
+										단가 등록<br/><br/>
+										* 단가등록 : 상영종류, 가격, 적용연도, 적용상태입력 후 등록
+									</div>
 								</div>
 								
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/DiscountList.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">할인정보 리스트 조회</div>
+									<div class="col s8">
+										할인정보 리스트 조회<br/><br/>
+										* 할인정보 리스트 조회 : 전체 할인정보의 할인정보, 할인가격, 적용연도, 현재적용유무, 할인구분 정보조회
+									</div>
 								</div>
 								
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/DiscountAdd.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">할인정보 등록</div>
+									<div class="col s8">
+										할인정보 등록<br/><br/>
+										* 할인정보 등록 : 할인정보, 할인가, 적용연도, 적용상태, 할인구분 입력 후 등록
+									</div>
 								</div>
 								
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/ScreenList.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">상영관리스트 조회</div>
+									<div class="col s8">
+										상영관리스트 조회<br/><br/>
+										* 상영관리스트 조회 : 전체 상영관의 지점이름, 상영관이름, 상영관 행, 상영관 열 정보조회
+									</div>
 								</div>
 								
 								<div class="row">
 									<div class="col s4">
 										<img src="./resources/img/portfolio_img/admin/ScreenAdd.JPG" class="materialboxed responsive-img card">
 									</div>
-									<div class="col s8">상영관 등록</div>
+									<div class="col s8">
+										상영관 등록<br/><br/>
+										* 지점코드조회 : 지점이름 입력 후 조회 누르면 지점코드 정보 조회<br/>
+										* 상영관 등록 : 지점이름, 지점코드, 상영관이름, 행, 열 정보 입력 후 등록 가능
+									</div>
 								</div>
 								
 							</div> <!-- 기능설명 div 닫기 -->
