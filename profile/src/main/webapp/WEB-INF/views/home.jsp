@@ -34,6 +34,9 @@ header, main, footer {
 		padding-left: 0;
 	}
 }
+body {
+	background-image: url("./resources/img/pattern1.jpg");
+}
 </style>
 </head>
 <body class="grey lighten-3">
@@ -129,7 +132,7 @@ header, main, footer {
 			<!-- 프로필 위치 -->
 			<div class="col s12 card">
 				<!--  about 카드 div 열기-->
-				<h5>About</h5>
+				<h5>Profile</h5>
 				<!-- <div class="row">
 					
 				</div> -->
@@ -152,21 +155,36 @@ header, main, footer {
 							</div>
 						</div>
 					</a>
-					<div class="col s7">[Spring] 영화예매 시스템</div>
+					<div class="col s7">
+						<h5>영화예매시스템</h5>
+						*사용자에게 영화예매를 간단히 할 수 있도록 <br/>
+						영화에 대한 정보 제공 및 영화예매 편리함 제공.<br/>
+						*관리자에게 영화 관리 및 상영관리, 단가/할인정보 관리, <br/>
+						통계 및 인물에 대한 관리 편의성 제공<br/><br/>
+						<a href="#modal1">
+							<input class="btn" type="button" value="상세보기" style="background-color: #01579B;">
+						</a>
+					</div>
 				</div>
 
-				<!-- <div class="row">
+				<div class="row">
 					<a href="#modal2">
 						<div class="col s4">
 							<div class="card">
 								<div class="card-image">
-									<img src="./resources/img/portfolio_img/lib/lib_main.png">
+									<img src="./resources/img/portfolio_img/lib/library.jpg">
 								</div>
 							</div>
 						</div>
 					</a>
-					<div class="col s7">[Spring] 도서대여 및 관리 시스템</div>
-				</div> -->
+					<div class="col s7">
+						<h5>도서대여 및 관리 시스템</h5>
+						refactoring<br/><br/><br/><br/><br/>
+						<a href="#modal2">
+							<input class="btn" type="button" value="상세보기" style="background-color: #01579B;">
+						</a>
+					</div>
+				</div>
 
 			</div>
 			<!-- 프로젝트 카드 div 닫기-->
@@ -518,14 +536,14 @@ header, main, footer {
 				<h4>도서관리/대여시스템</h4>
 				<div>
 					<!--본문 div 열기 -->
+					<h2>refactoring 중입니다.</h2>
+					<!-- <ul class="collection">
 
-					<ul class="collection">
-
-						<!-- 리스트 1 -->
+						리스트 1
 						<li class="collection-item">
-							<!-- 깃허브 or 링크 div -->
+							깃허브 or 링크 div
 							<div class="row">
-								<!-- 깃허브 or 링크 div 열기-->
+								깃허브 or 링크 div 열기
 								<h5>호스팅링크 / github</h5>
 								<div>
 									<a href="http://kjb7907.cafe24.com/lib/main" target="_blank">
@@ -535,35 +553,35 @@ header, main, footer {
 								<div>
 									<a href="https://github.com/kjb7907/LibraryManagement" target="_blank">https://github.com/kjb7907/LibraryManagement</a>
 								</div>
-							</div> <!-- 깃허브 or 링크 div 닫기 -->
+							</div> 깃허브 or 링크 div 닫기
 						</li>
 
-						<!-- 리스트 2 -->
+						리스트 2
 						<li class="collection-item">
-							<!-- 개발환경 div -->
+							개발환경 div
 							<div class="row">
-								<!-- 개발환경 div 열기 -->
+								개발환경 div 열기
 								<h5>개발환경</h5>
 								Java ,Spring , mybatis, Mysql , Tomcat8.5, Javascript, jQuery,
 								ajax, bootstrap, semantic ui
-							</div> <!-- 개발환경 div 닫기 -->
+							</div> 개발환경 div 닫기
 						</li>
 
-						<!-- 리스트 3 -->
+						리스트 3
 						<li class="collection-item">
-							<!-- 상세설명 div -->
+							상세설명 div
 							<div class="row">
-								<!-- 상세설명 div 열기 -->
+								상세설명 div 열기
 								<h5>ERD</h5>
 								<img src="./resources/img/portfolio_img/lib/erd.png" style="width: 70%;" class="materialboxed responsive-img">
-							</div> <!-- 상세설명 div 닫기 -->
+							</div> 상세설명 div 닫기
 						</li>
 
-						<!-- 리스트 4 -->
+						리스트 4
 						<li class="collection-item">
-							<!-- 기능설명 div -->
+							기능설명 div
 							<div>
-								<!-- 기능설명 div 열기 -->
+								기능설명 div 열기
 								<h5>기능</h5>
 
 								<div class="row">
@@ -610,11 +628,11 @@ header, main, footer {
 									</div>
 								</div>
 
-							</div> <!-- 기능설명 div 닫기 -->
+							</div> 기능설명 div 닫기
 						</li>
 
 					</ul>
-
+ -->
 				</div>
 				<!--본문 div 닫기 -->
 			</div>
@@ -629,8 +647,8 @@ header, main, footer {
 
 	<!-- modal script -->
 	<script>
-        $('.modal').modal();
-      </script>
+		$('.modal').modal();
+	</script>
 
 	<a name="skill"></a>
 	<!-- 스킬 위치 -->
