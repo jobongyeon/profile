@@ -54,7 +54,6 @@ body {
 					<!-- 스킬 -->
 					<li><a href="#skill"> <i class="material-icons left">list</i>SKILL
 					</a></li>
-
 				</ul>
 			</div>
 		</nav>
@@ -133,9 +132,14 @@ body {
 			<div class="col s12 card">
 				<!--  about 카드 div 열기-->
 				<h5>Profile</h5>
-				<!-- <div class="row">
-					
-				</div> -->
+				<div class="row" style="margin-left: 1%;">
+					이름 : 조봉연<br/>
+					교육 이수 내역<br/>
+					교육명 : 정보시스템개발자양성과정<br/>
+					교육기관 : 한국스마트정보교육원<br/><br/>
+					*프로젝트
+					영화 예매/관리 시스템<br/>
+				</div>
 			</div>
 			<!-- about 카드 div 닫기-->
 
@@ -290,8 +294,13 @@ body {
 							<div class="row">
 								<!-- 개발환경 div 열기 -->
 								<h5>개발환경</h5>
-								Java1.8 ,Spring , mybatis, Mysql , Tomcat8.0, Javascript,
-								jQuery, ajax, materialize, bootstrap, semantic ui.
+								OS : window7<br/>
+								Client side : Javascript, jQuery, ajax<br/>
+								Server side : Java1.8<br/>
+								DBMS : mybatis,Mysql<br/>
+								WAS : Tomcat8.0<br/>
+								Client side framework : bootstrap, materialize, semantic ui<br/>
+								Server side framework : Spring<br/>
 							</div> <!-- 개발환경 div 닫기 -->
 						</li>
 
@@ -323,7 +332,10 @@ body {
 									</div>
 									<div class="col s8">
 										관리자 메인화면 구현 및 메뉴 모듈 구성<br/><br/>
-										* 관리자 메인 : 영화 매출에 대한 데이터를 그래프 및 도표로 조회(지점별 월 매출/총 월 매출/영화별 예매율 순위)
+										* 관리자 메인 : 영화 매출에 대한 데이터를 그래프 및 도표로 조회(지점별 월 매출/총 월 매출/영화별 예매율 순위)<br/>
+										&nbsp;&nbsp; 바 그래프 : 매출 상위 5개 지점별 매출 상위 3개 영화의 매출조회<br/>
+										&nbsp;&nbsp; 선 그래프 : 월별 매출조회, 총매출 조회<br/>
+										&nbsp;&nbsp; 표 테이블 : 관객수 상위 4개 영화 조회<br/>
 									</div>
 								</div>
 								
@@ -333,7 +345,7 @@ body {
 									</div>
 									<div class="col s8">
 										지점 리스트 조회<br/><br/>
-										* 지점 리스트 : 전체 지점이름, 지역, 주소, 상세설명 데이터 조회
+										* 지점 리스트 : 전체 지점이름, 지역, 주소, 상세설명 데이터 조회, 지점 정보 수정가능
 									</div>
 								</div>
 								
@@ -353,7 +365,7 @@ body {
 									</div>
 									<div class="col s8">
 										지점 수정<br/><br/>
-										* 지점 수정 : 한개 행의 데이터 조회 후 
+										* 지점 수정 : 한개 행 의 데이터 조회 후 
 										지점이름, 지역, 주소, 상세설명 내용 수정
 									</div>
 								</div>
